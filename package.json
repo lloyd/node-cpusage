@@ -1,0 +1,34 @@
+{
+  "name": "cpusage",
+  "description": "CPU Sage provides an API for understanding a node processes memory usage from within that process.",
+  "homepage": "https://github.com/lloyd/node-cpusage",
+  "version": "0.0.1",
+  "maintainers": [
+    {
+      "name": "Lloyd Hilaiel",
+      "email": "lloyd@hilaiel.com"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/lloyd/node-cpusage/issues"
+  },
+  "licenses": [
+    {
+      "type": "WTFPL"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "git://github.com/lloyd/node-cpusage.git"
+    }
+  ],
+  "main": "./index.js",
+  "dependencies": {
+    "getrusage": "0.3.x"
+  },
+  "engines": {
+    "node": ">=0.6.0"
+  }
+}
+
