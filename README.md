@@ -14,3 +14,7 @@
     }).on('normal', function(percentCPU) {
      console.log("process is back to normal, using " + percentCPU + "% cpu\n");
     });
+
+## license
+
+http://wtfpl.org
